@@ -15,3 +15,8 @@ Directorio de programa Scala que calcula diferentes métricas de centralidad par
 ## Resultados
 Obtención de tiempos de ejecución para diferentes métricas y configuraciones del clúster Hadoop Spark para generación de gráficos estadadísticos.
 Creación de un mapa con los resultados de los cálculos de las métricas de centralidad.
+- all_times.txt -> fichero resultante de obtener los tiempos de ejecución desde los ficheros de logs de las ejecuciones
+- speedup.R -> programa de generación de gráficos con los tiempos de ejecución.
+- resultsJoin.R -> programa que recupera y une todos los resultados de las métricas en un solo fichero.
+- map.r -> programa de generación de mapa geográfico con los resultados
+- map.html -> mapa generado
